@@ -1,0 +1,20 @@
+
+G:\Users\Insave\Desktop\PS2>java AbecedarianPF
+Enter a single word:
+befist
+The word befist is abecedarian.
+
+G:\Users\Insave\Desktop\PS2>java AbecedarianPF
+Enter a single word:
+the
+The word the is not abecedarian.
+
+G:\Users\Insave\Desktop\PS2>java AbecedarianPF
+Enter a single word:
+hourglass
+The word hourglass is not abecedarian.
+
+G:\Users\Insave\Desktop\PS2>java AbecedarianPF
+Enter a single word:
+adept
+The word adept is abecedarian.
