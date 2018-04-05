@@ -1,0 +1,22 @@
+
+G:\Users\Insave\Desktop\Fief>java Prob1089PF
+Enter a three digit number, the first and last digit differing by at least 2:
+123
+Your number: 123
+Your number reversed: 321
+Difference: 198
+Difference reversed: 891
+Sum of the difference and reversed difference: 1089
+
+G:\Users\Insave\Desktop\Fief>java Prob1089PF
+Enter a three digit number, the first and last digit differing by at least 2:
+465
+The first and last digit must differ by at least 2...
+0
+The number must be 3 digits...
+682
+Your number: 682
+Your number reversed: 286
+Difference: 396
+Difference reversed: 693
+Sum of the difference and reversed difference: 1089
