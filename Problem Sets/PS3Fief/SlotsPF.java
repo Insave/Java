@@ -1,3 +1,8 @@
+// Author: Patrick Fief
+// Course: Java Programming
+// Set 3 Program 2
+// References: https://docs.oracle.com/javase/8/javafx/api/allclasses-noframe.html
+
 import javafx.application.Application;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
@@ -57,13 +62,9 @@ public class SlotsPF extends Application {
         grid.setGridLinesVisible(true);
         
         //Event Handling
-        btn.setOnAction(new EventHandler<ActionEvent>() {
- 
-            @Override
-            public void handle(ActionEvent e) {
+        btn.setOnAction((ActionEvent e) -> {
                 actiontarget.setFill(Color.FIREBRICK);
                 actiontarget.setText("Sign in button pressed");
-            }
         });
         
         //Scene creation with grid as the root node
