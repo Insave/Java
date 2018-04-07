@@ -1,3 +1,8 @@
+// Author: Patrick Fief
+// Course: Java Programming
+// Set 3 Program 3
+// References: https://docs.oracle.com/javase/8/javafx/api/allclasses-noframe.html
+
 import java.util.Random;
 import javafx.application.Application;
 import javafx.geometry.*;
@@ -39,7 +44,7 @@ public class YinYangPF extends Application {
         gc.fillOval(0, 0, size-1, size-1);
  
         gc.setFill(lowerColor);
-        // Use fillArc to draw part of a filled in circle
+        // Use fillArc to draw a semi circle
         gc.fillArc(0, 0, size-1, size-1, 270, 180, ArcType.ROUND);
         gc.fillOval(size/4, size/2, size/2, size/2);
  
@@ -49,6 +54,7 @@ public class YinYangPF extends Application {
  
         gc.setFill(lowerColor);
         gc.fillOval(7*size/16, 3*size/16, size/8, size/8);
+        
         // Use strokeOval to draw an empty circle for the outside border
         gc.strokeOval(0, 0, size-1, size-1);
         
