@@ -31,6 +31,7 @@ public class EmotionalHeartPF extends Application {
     public void start(Stage primaryStage) {
         final int size = 500;
         
+        //Container setup
         GridPane root = new GridPane();
         Scene scene = new Scene(root, size, size);
         VBox btnBox = new VBox(10);
@@ -39,6 +40,7 @@ public class EmotionalHeartPF extends Application {
         
         final Canvas canvas = new Canvas(size * .75,size * .75);
         
+        //Text setup
         HBox holderText = new HBox();
         holderText.setPrefHeight(size / 5);
         holderText.setAlignment(Pos.CENTER);
@@ -48,12 +50,12 @@ public class EmotionalHeartPF extends Application {
         emotionText.setTextAlignment(TextAlignment.CENTER);
         holderText.getChildren().addAll(emotionText);
         
+        //Button setup followed by adding containers to the grid
         createButtons(btnBox, emotionText, canvas);
         
-        //TODO: Draw a Heart
-        root.add(canvas, 2, 0);
+        root.add(canvas, 1, 0);
         root.add(btnBox, 0, 0);
-        root.add(holderText, 2, 2);
+        root.add(holderText, 1, 1);
         
         //Scene creation with root
         primaryStage.setScene(scene);
