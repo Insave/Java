@@ -36,6 +36,7 @@ public class YinYangPF extends Application {
         GraphicsContext gc = canvas.getGraphicsContext2D();
         
         //Creating 2 random colors
+        //Consider looking up random colors for consistent nice looking colors
         Color upperColor = new Color(getRandom(), getRandom(), getRandom(), 1.0);
         Color lowerColor = new Color(getRandom(), getRandom(), getRandom(), 1.0);
         
@@ -45,6 +46,7 @@ public class YinYangPF extends Application {
  
         gc.setFill(lowerColor);
         // Use fillArc to draw a semi circle
+        // Consider looking up how to bind to size of stage/scene
         gc.fillArc(0, 0, size-1, size-1, 270, 180, ArcType.ROUND);
         gc.fillOval(size/4, size/2, size/2, size/2);
  
