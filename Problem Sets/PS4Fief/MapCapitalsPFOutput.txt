@@ -1,0 +1,10 @@
+
+I:\GitHub\Java\Problem Sets\PS4Fief>java MapCapitalsPF
+Enter file name: capitals.txt
+File capitals.txt loaded
+
+The capital city of Italy is Rome.
+The capital city of Finland is Helsinki.
+The capital city of Bosnia Herzegovina is Sarajevo.
+
+I:\GitHub\Java\Problem Sets\PS4Fief>
