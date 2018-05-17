@@ -21,6 +21,7 @@ public class FibonacciLastDigit {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
         int c = getFibonacciLastDigitNaive(n);
+        scanner.close();
         System.out.println(c);
     }
 }
